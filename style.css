@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Mochiy+Pop+P+One&display=swap');
+
+:root {
+    --violet-light: #eec7fc;
+    --violet-medium: #49007a;
+    --violet-dark: #3d0066;
+    --yellow: #ffe047;
+    --yellow-dark: #ffce1f;
+}
+
+body {
+    background-image: linear-gradient(var(--violet-medium), var(--violet-light), var(--violet-medium));
+    text-align: center;
+}
+
+.topic{
+    color: var(--yellow-dark);
+    font-family: 'Mochiy Pop P One', sans-serif;
+    text-transform: uppercase;
+    text-shadow: var(--violet-dark) 2px 2px;
+    font-size: 1.5rem;
+}
+
+.container{
+    width: 95vw;
+    height: 95vh;
+    margin: auto;
+    border: 3px dashed var(--violet-dark);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.background-theme{
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    background-color: var(--violet-dark);
+    color: var(--yellow-dark);
+    border : 2px solid var(--violet-light) ;
+    padding: 2rem;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.2rem;
+    box-shadow: var(--violet-light) 4px 4px;
+}
+
+.input-box{
+    background-color: var(--violet-light);
+    border-radius: 7px;
+    border: none;
+    color: var(--violet-dark);
+    font-weight: 800;
+    font-size: 1rem;
+    text-indent: 0.5rem;
+}
+
+#btn-submit{
+    background-color: var(--violet-dark);
+    color: var(--yellow);
+    border: 2px solid var(--violet-light);
+    box-shadow: var(--violet-light) 1px 1px;
+    border-radius: 8px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 8px 20px;
+}
+
+#warning-name, #warning-dob{
+    display: block;
+    font-size: 0.85rem;
+    line-height: 1.5rem;
+    color: var(--violet-light);
+}
+
+#output{
+    color: var(--violet-light);
+    text-shadow: black 2px 2px;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
